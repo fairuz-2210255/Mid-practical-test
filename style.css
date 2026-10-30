@@ -7,3 +7,6 @@ img{max-width:100%;border-radius:8px}
 /* HOME: FLEX */
 .flex-row{display:flex;gap:28px;align-items:center;margin-bottom:36px}
 .flex-row div{flex:1}
+/* FOOTER */
+footer{background:var(--ink);color:#ddd;text-align:center;padding:22px 12px;margin-top:30px}
+footer p{margin-bottom:4px}
