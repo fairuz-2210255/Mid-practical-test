@@ -24,3 +24,8 @@ button:hover{background:var(--bean)}
 input{display:block;width:100%;padding:10px;margin-bottom:12px;border:1px solid var(--line);border-radius:6px}
 .flex-row img{display:block;margin-bottom:12px}
 #msg{color:var(--leaf);font-weight:bold;margin-top:12px}
+/* SMALL SCREENS */
+@media (max-width: 700px) {
+  .flex-row{display:block}
+  .grid{grid-template-columns:1fr}
+}
