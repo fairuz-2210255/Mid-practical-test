@@ -21,48 +21,56 @@
   <h2>Our coffees</h2>
   <p>Every roast is packed in 250 g bags. Prices are in BDT and include delivery inside Dhaka.</p>
   <p>Choose a roast from the list below. Each one is roasted fresh the week you order it.</p>
+    <p id="cart">Cart is empty</p>
   <section class="grid">
     <div class="card">
       <img src="https://picsum.photos/seed/p1/400/260" alt="Light roast coffee">
       <h3>Sylhet Light</h3>
       <p>Bright and floral, with a taste close to tea.</p>
       <p class="price">Tk 750</p>
-    </div>
+    </div>      
+    <button onclick="addToCart('Sylhet Light')">Add to cart</button>
     <div class="card">
       <img src="https://picsum.photos/seed/p2/400/260" alt="Medium roast coffee">
       <h3>Gulshan Medium</h3>
       <p>Balanced, with a taste of caramel and nuts.</p>
       <p class="price">Tk 700</p>
     </div>
+    <button onclick="addToCart('Gulshan Medium')">Add to cart</button>
     <div class="card">
       <img src="https://picsum.photos/seed/p3/400/260" alt="Dark roast coffee">
       <h3>Old Dhaka Dark</h3>
       <p>Bold and smoky, with a chocolate finish.</p>
       <p class="price">Tk 680</p>
     </div>
+    <button onclick="addToCart('Old Dhaka Dark')">Add to cart</button>
         <div class="card">
       <img src="https://picsum.photos/seed/p4/400/260" alt="Espresso blend">
       <h3>Espresso Blend</h3>
       <p>Thick crema and low acidity.</p>
       <p class="price">Tk 800</p>
     </div>
+    <button onclick="addToCart('Espresso Blend')">Add to cart</button>
     <div class="card">
       <img src="https://picsum.photos/seed/p5/400/260" alt="Cold brew pack">
       <h3>Cold Brew Pack</h3>
       <p>Ten steep bags for iced coffee.</p>
       <p class="price">Tk 550</p>
     </div>
+    <button onclick="addToCart('Cold Brew Pack')">Add to cart</button>
     <div class="card">
       <img src="https://picsum.photos/seed/p6/400/260" alt="Decaf coffee">
       <h3>Midnight Decaf</h3>
       <p>Smooth and full of flavour, with no caffeine.</p>
       <p class="price">Tk 720</p>
     </div>
+    <button onclick="addToCart('Midnight Decaf')">Add to cart</button>
   </section>
 </main>
 <footer>
   <p>Copyright 2026 Dhaka Brew</p>
   <p>Dhaka, Bangladesh | hello@dhakabrew.com</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

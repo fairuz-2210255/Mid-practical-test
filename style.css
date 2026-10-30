@@ -15,3 +15,8 @@ footer p{margin-bottom:4px}
 .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}
 .card h3{margin:10px 0 4px;color:var(--bean)}
 .price{color:var(--leaf);font-weight:bold}
+/* BUTTONS */
+button{background:var(--leaf);color:#fff;border:0;padding:10px 20px;border-radius:6px;font-size:1rem;cursor:pointer}
+button:hover{background:var(--bean)}
+#offer{display:none;background:#ffe9b8;padding:12px;margin-top:12px}
+#cart{background:#ffe9b8;padding:10px;text-align:center}
