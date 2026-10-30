@@ -8,3 +8,8 @@ function addToCart(name) {
 function showOffer() {
   document.getElementById('offer').style.display = 'block';
 }
+function sendMessage() {
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  document.getElementById('msg').innerHTML = 'Thanks, ' + name + '! We will reply to ' + email + ' soon.';
+}

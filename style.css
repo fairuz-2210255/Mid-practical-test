@@ -20,3 +20,7 @@ button{background:var(--leaf);color:#fff;border:0;padding:10px 20px;border-radiu
 button:hover{background:var(--bean)}
 #offer{display:none;background:#ffe9b8;padding:12px;margin-top:12px}
 #cart{background:#ffe9b8;padding:10px;text-align:center}
+/* CONTACT */
+input{display:block;width:100%;padding:10px;margin-bottom:12px;border:1px solid var(--line);border-radius:6px}
+.flex-row img{display:block;margin-bottom:12px}
+#msg{color:var(--leaf);font-weight:bold;margin-top:12px}
